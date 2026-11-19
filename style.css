@@ -1,0 +1,120 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: navy;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Welcome Section */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: navy;
+}
+
+/* Footer */
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #eaf2ff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    color: navy;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    color: #444444;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* DARK MODE */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+    color-scheme: dark;
+
+    --bs-body-bg: #121212;
+    --bs-body-color: #f5f5f5;
+    --bs-secondary-color: #cccccc;
+    --bs-tertiary-bg: #252525;
+    --bs-border-color: #555555;
+}
+
+/* Cards */
+body.dark-mode .card {
+    background-color: #242424;
+    color: #f5f5f5;
+}
+
+/* Tables */
+body.dark-mode .table {
+    --bs-table-color: #f5f5f5;
+    --bs-table-bg: #242424;
+    --bs-table-border-color: #555555;
+    --bs-table-striped-bg: #303030;
+    --bs-table-striped-color: #f5f5f5;
+    --bs-table-hover-bg: #383838;
+    --bs-table-hover-color: #ffffff;
+}
+
+/* Form fields */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #303030;
+    color: white;
+    border-color: #666666;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #bbbbbb;
+}
+
+/* Text */
+body.dark-mode .text-muted {
+    color: #bbbbbb !important;
+}
+
+/* Links */
+body.dark-mode a {
+    color: #8ab4f8;
+}
