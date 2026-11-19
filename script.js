@@ -46,6 +46,7 @@ function logout() {
 }
 
 // Registration Form
+alert("Registration JavaScript is working!");
 
 const registerForm = document.getElementById("registerForm");
 
@@ -87,26 +88,5 @@ if (registerForm) {
 
     });
 
-}
-
-
-// Dark Mode / Light Mode
-
-
-function toggleTheme() {
-
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-    } else {
-        localStorage.setItem("theme", "light");
-    }
-
-}
-
-// Load saved theme
-if (localStorage.getItem("theme") === "dark") {
-    document.body.classList.add("dark-mode");
 }
 
